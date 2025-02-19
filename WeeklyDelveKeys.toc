@@ -1,0 +1,12 @@
+## Interface: 110007
+## Title: WeeklyDelveKeys
+## Notes: Show your acquired Restored Coffer Keys on tooltip of the Weekly Caches
+## Version: @project-version@
+## IconTexture: Interface\AddOns\WeeklyDelveKeys\Icon.blp
+## X-Website: https://github.com/cybertk/WeeklyDelveKeys
+## X-Curse-Project-ID: 1203887
+## X-Wago-ID: j6jz416R
+## X-WoWI-ID: 26906
+
+
+WeeklyDelveKeys.lua
