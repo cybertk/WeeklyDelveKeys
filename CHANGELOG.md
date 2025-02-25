@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0 - 2025-02-25
+
+- Upgrade TOC to 11.1.0
+
 ## v1.0.0 - 2025-02-19
 
 ### First Release
