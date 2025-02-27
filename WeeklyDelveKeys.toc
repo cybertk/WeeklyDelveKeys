@@ -3,6 +3,7 @@
 ## Notes: Show your acquired Restored Coffer Keys on tooltip of the Weekly Caches
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\WeeklyDelveKeys\Icon.blp
+## Category: Tooltip
 ## X-Website: https://github.com/cybertk/WeeklyDelveKeys
 ## X-Curse-Project-ID: 1203887
 ## X-Wago-ID: j6jz416R
