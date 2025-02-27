@@ -59,7 +59,6 @@ end
 
 function Progress:Init()
 	local currency = C_CurrencyInfo.GetCurrencyInfo(DELVE_KEY_CURRENCY_ID)
-	local keyName = ITEM_QUALITY_COLORS[currency.quality].color:WrapTextInColorCode(format(" [%s]", currency.name))
 
 	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, function(tooltip, data)
 		if not EligibleItems:Contain(tooltip:GetPrimaryTooltipData().id) then
@@ -67,13 +66,19 @@ function Progress:Init()
 		end
 
 		tooltip:AddLine(" ")
-		tooltip:AddDoubleLine(WEEKLY .. keyName, self:Summary(), 1, 1, 1)
+		tooltip:AddDoubleLine(
+			format(CURRENCY_THIS_WEEK, ITEM_QUALITY_COLORS[currency.quality].color:WrapTextInColorCode("[" .. currency.name .. "]")),
+			self:Summary(),
+			1,
+			1,
+			1
+		)
 	end)
 	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Currency, function(tooltip, data)
 		if tooltip:GetPrimaryTooltipData().id ~= DELVE_KEY_CURRENCY_ID then
 			return
 		end
-		tooltip:AddLine("Looted in this week: " .. self:Summary())
+		tooltip:AddLine(format(CURRENCY_WEEKLY_CAP, "|cnWHITE_FONT_COLOR:", self.required - #self.remaining, self.required .. "|r"))
 	end)
 end
 
