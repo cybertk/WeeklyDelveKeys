@@ -23,6 +23,8 @@ local EligibleItems = {
 	226264, -- radiant-cache
 	226273, -- awakened-mechanical-cache
 	228361, -- seasoned-adventurers-cache
+	235639, -- seasoned-adventurers-cache s2
+	238208, -- nannys-surge-dividends
 }
 
 function EligibleItems:Init()
