@@ -15,16 +15,15 @@ function WeeklyDelveKeys:RegisterEvent(name, handler)
 end
 
 local EligibleItems = {
-	224784, -- pinnacle-cache
-	225571, -- the-weavers-gratuity
-	225572, -- the-generals-war-chest
-	225573, -- the-viziers-capital
-	226263, -- theater-troupes-trove
-	226264, -- radiant-cache
-	226273, -- awakened-mechanical-cache
-	228361, -- seasoned-adventurers-cache
-	235639, -- seasoned-adventurers-cache s2
-	238208, -- nannys-surge-dividends
+	239118, -- Pinnacle Cache
+	239125, -- The weaver's Gratuity
+	239122, -- The general's War Chest
+	239124, -- The vizier's Capital
+	239128, -- Theater Troupe's Trove
+	239126, -- Radiant Cache
+	239121, -- Awakened Mechanical Cache
+	235639, -- Seasoned Adventurer's Cache
+	238208, -- Nanny's Surge Dividends
 }
 
 function EligibleItems:Init()

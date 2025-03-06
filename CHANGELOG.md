@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0 - 2025-03-06
+
+All Weekly Caches have been upgraded to S2, S1 Caches no longer provide keys
+
 ## v1.3.0 - 2025-03-04
 
 New Undermine weekly Caches are supported now, including
