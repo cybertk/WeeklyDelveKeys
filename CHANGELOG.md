@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.1 - 2025-03-07
+
+Seasonal Adventurer's Cache rewarded by SA quest now can be recognized
+
 ## v1.4.0 - 2025-03-06
 
 All Weekly Caches have been upgraded to S2, S1 Caches no longer provide keys
