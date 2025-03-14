@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.2 - 2025-03-14
+
+The newly received S1 Seasonal Adventurer's Cache now can be recognized
+
 ## v1.4.1 - 2025-03-07
 
 Seasonal Adventurer's Cache rewarded by SA quest now can be recognized

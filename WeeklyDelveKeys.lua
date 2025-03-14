@@ -22,9 +22,10 @@ local EligibleItems = {
 	239128, -- Theater Troupe's Trove
 	239126, -- Radiant Cache
 	239121, -- Awakened Mechanical Cache
-	235610, -- Seasoned Adventurer's Cache
-	235639, -- Seasoned Adventurer's Cache
+	235610, -- Seasoned Adventurer's Cache - S2
+	235639, -- Seasoned Adventurer's Cache - S2
 	238208, -- Nanny's Surge Dividends
+	239120, -- Seasoned Adventurer's Cache
 }
 
 function EligibleItems:Init()
